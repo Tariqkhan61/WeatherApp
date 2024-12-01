@@ -1,0 +1,40 @@
+.weather-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: aqua;
+  border-radius: 8px; /* Changed to lowercase */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Changed opacity to soften the shadow */
+  text-align: center;
+}
+
+.weather-info {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ffffff; /* Added background color for better readability */
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type='text'] {
+  padding: 10px;
+  width: 80%; /* Added width for better input box appearance */
+  margin-bottom: 10px; /* Added margin to space out the button */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
